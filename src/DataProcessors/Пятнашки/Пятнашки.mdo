@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3eea3f85-4c17-4e58-89d3-fb516421959b">
+  <producedTypes>
+    <objectType typeId="aba85231-f825-400b-b7c8-e8701f6a9c5e" valueTypeId="015ef7b7-091f-49fb-a32c-199f0a41bbad"/>
+    <managerType typeId="2b01c04e-3262-4fa1-ac7b-4df479c1d301" valueTypeId="11e537f6-81e7-4e9f-8dac-5e33e9a91491"/>
+  </producedTypes>
+  <name>Пятнашки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пятнашки</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Пятнашки.Form.Форма</defaultForm>
+  <tabularSections uuid="fe38d0ee-ac54-48bf-a7df-7c3c4910b663">
+    <producedTypes>
+      <objectType typeId="94ea2bbd-8528-4007-8838-188f02465a0d" valueTypeId="455f418c-7d19-4d53-b2b4-74b5f5503885"/>
+      <rowType typeId="afaf50a3-c13c-4b18-b41f-593902ec21a7" valueTypeId="92f6b159-d44b-44ea-896c-5ba562406454"/>
+    </producedTypes>
+    <name>Фишки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фишки</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="e230c05a-9b33-4843-be66-94eef46f6fa4">
+      <name>Число</name>
+      <synonym>
+        <key>ru</key>
+        <value>Число</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>2</precision>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="4dd04bba-5f09-4eb2-ac02-147d92c69e5f">
+      <name>Представление</name>
+      <synonym>
+        <key>ru</key>
+        <value>Представление</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>2</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <forms uuid="c8a19e5c-9030-405c-ac38-0f8f7d8761ff">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
